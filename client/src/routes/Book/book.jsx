@@ -150,7 +150,7 @@ function Book() {
           <br />
 
           <div className="dropdown dropdown-hover">
-            <div tabIndex={0} role="button" className="btn m-1 text-gray-100">Category</div>
+            <div tabIndex={0} role="button" className="btn  btn-accent m-1 text-gray-100">Category</div>
             <select tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-gray-900 rounded-box w-52" onChange={(e) => setSelectedCategory(e.target.value)}>
               {/* <select > */}
               <option value="">All (click once more)</option>
