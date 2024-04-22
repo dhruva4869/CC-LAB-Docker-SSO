@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 function Recommendation() {
     const [data, setData] = useState([]);
-    const baseUrl = "http://localhost:8000/api/books";
+    const baseUrl = "https://backend-codehelper-trial.onrender.com/api/books";
 
     useEffect(() => {
 
