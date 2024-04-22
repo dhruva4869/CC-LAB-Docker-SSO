@@ -10,7 +10,7 @@ import Fuse from 'fuse.js';
 
 function Book() {
   
-  const baseUrl = "http://localhost:8000/api/books";
+  const baseUrl = "https://backend-codehelper-trial.onrender.com/api/books";
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
