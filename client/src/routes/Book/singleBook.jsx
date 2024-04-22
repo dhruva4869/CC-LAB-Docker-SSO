@@ -60,7 +60,7 @@ function singleBook () {
 
 
     const urlSlug = useParams(); // ye path mai konse parameters hai. konse path mai?
-    const baseUrl = `http://localhost:8000/api/books/${urlSlug.slug}`;
+    const baseUrl = `https://backend-codehelper-trial.onrender.com/api/books/${urlSlug.slug}`;
 
 
     useEffect(() => {
